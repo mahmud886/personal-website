@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+}
+
+/* -------------------------------Header-Area-Sections-CSS-START------------------------------- */
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+
+}
+.logo{
+    float: left;
+    color: deeppink;
+    padding-top: 15px;
+}
+
+.main-nav ul{
+    list-style-type: none;
+     margin: 0;
+     padding: 0;
+    
+}
+.main-nav ul li{
+    float: right;
+    padding-right: 10px;
+
+}
+.main-nav ul li a{
+    display: block;
+    list-style: none;
+    text-decoration: none;
+    color: deeppink;
+    padding: 20px 15px;
+    text-transform: capitalize;
+}
+.main-nav ul li a:hover{
+    background-color: deeppink;
+    color: white;
+    transition: 1s;
+}
+
+
+h1{
+    font-size: 70px;
+}
+h4{
+    font-size: 30px;
+    padding-top: 150px;
+    font-weight: 400;
+}
+.paragraph-tag{
+    font-size: 20px;
+    color: dimgray;
+    padding-bottom: 30px;
+}
+.color-highlight{
+    color: deeppink;
+}
+.hero-section{
+    width: 30%;
+    float: left;
+    margin-left: 10%;
+    padding-left: 3%;
+    margin-top: 150px;
+    padding-bottom: 150px;
+}
+.button-highlight{
+    background-image: linear-gradient(to right, #ff0084 0%, #33001b 51%, #ff0084 100%);
+    padding: 15px 45px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+.button-highlight:hover {
+    background-image: linear-gradient(to right, #B24592 0%, #F15F79 51%, #B24592 100%);
+    background-position: right center;
+    transition: 2s;
+     
+}
+.hero-section img{
+    width: 100%;
+}
+.header-area{
+    background-image: url("images/header-bg.png");
+    overflow: hidden;
+    width: 100%;
+    background-repeat: no-repeat;
+    
+}
+/* -------------------------------Header-Area-Sections-CSS-ENDS------------------------------- */
+
+
+/* -------------------------------Biography-Area-Sections-CSS-START------------------------------- */
+
+.biography-area{
+    background-image: url("images/biography-bg.png");
+    overflow: hidden;
+    
+}
+
+.biography-single-section{
+    float: left;
+    width: 30%;
+    margin-left: 10%;
+    padding-left: 3%;
+    padding-top: 150px;
+    
+}
+
+.biography-single-section img{
+    width: 100%;
+    padding-left: 15%;
+}
+.text{
+    padding-right: 10%;
+}
+.biography-single-section h2{
+    font-size: 40px;
+    padding-top: 150px;
+}
+/* -------------------------------Biography-Area-Sections-CSS-ENDS------------------------------- */
+
+
+
+/* -------------------------------LatestWork-Area-Sections-CSS-START------------------------------- */
+
+.latestWork-area{
+    background-image: url("images/latest-work-bg.png");
+    overflow: hidden;
+    background-repeat: no-repeat;
+    padding-bottom: 150px;
+    padding-top: 150px;
+}
+.latest-content{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+.div-section{
+    width: 100%;
+    margin-left: 3%;
+}
+.latestWork-single-section{
+    float: left;
+    width: 29%;
+    padding-left: 30px;
+    margin: auto;
+    
+}
+.latestWork-single-section img{
+    width: 100%;
+}
+
+/* -------------------------------LatestWork-Area-Sections-CSS-ENDS------------------------------- */
+
+
+/* -------------------------------Clients-Area-Sections-CSS-START------------------------------- */
+
+.clients-area{
+    background-image: url("images/footer-bg.png");
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 150px;
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    /* height: 50vh; */
+}
+.clients-asks{
+
+}
+.clients-name{
+    padding-top: 70px;
+}
+.clients-name h5{
+    font-size: 30px;
+}
+.clients-paragraph{
+    padding: 50px;
+}
+.message-box{
+    width: 40%;
+    height: 140px;
+    margin-left: 30%;
+    padding-top: 40px;
+    text-align: center;
+    background-image: linear-gradient(to right, #DD5E89 0%, #F7BB97 51%, #DD5E89 100%);
+    border-radius: 10px;
+    
+}
+.mail-paragraph{
+    font-size: 20px;
+    color: white;
+}
+.mail-address{
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+footer{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+/* -------------------------------Clients-Area-Sections-CSS-ENDS------------------------------- */
+
