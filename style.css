@@ -169,13 +169,12 @@ h4{
     overflow: hidden;
     text-align: center;
     padding-bottom: 150px;
-   
     background-repeat: no-repeat;
     background-position: center;
-    /* height: 50vh; */
 }
 .clients-asks{
-
+    font-size: 45px;
+    font-weight: 600;
 }
 .clients-name{
     padding-top: 70px;
@@ -192,7 +191,7 @@ h4{
     margin-left: 30%;
     padding-top: 40px;
     text-align: center;
-    background-image: linear-gradient(to right, #DD5E89 0%, #F7BB97 51%, #DD5E89 100%);
+    background-image: linear-gradient(50deg, red, deeppink);
     border-radius: 10px;
     
 }
@@ -205,11 +204,250 @@ h4{
     font-weight: 600;
     color: white;
 }
+/* -------------------------------Clients-Area-Sections-CSS-ENDS------------------------------- */
+
+
+ /* -------------------------------Experience-Area-Sections-CSS-START------------------------------- */
+
+
+.experience-area{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 200px;
+}
+.experience-area h1{
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.main-experience-div{
+    margin-left: 20%;
+    padding-bottom: 200px !important;
+}
+.half-width{
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+    padding-left: 2%;
+
+}
+.single-experience{
+    box-shadow: 5px 5px 30px dimgrey;
+    border-radius: 5px;
+    height: 100%;
+    background-color: white;
+    
+    
+}
+.single-experience h2{
+    padding-top: 50px;
+}
+.single-experience p{  
+    padding-bottom: 50px;
+    
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-right: 7px solid;
+    border-image:linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-right: 7px solid;
+    border-image:linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+/* -------------------------------Experience-Area-Sections-CSS-ENDS------------------------------- */
+
+
+/* -------------------------------Contact-Area-Sections-CSS-START------------------------------- */
+input{
+    outline: none;
+    border: none;
+}
+textarea{
+    outline: none;
+    border: none;
+}
+textarea:focus, input:focus{
+    border-color: transparent !important;
+}
+button{
+    outline: none !important;
+    border: none;
+    background: transparent;
+}
+button:hover{
+    cursor: pointer;
+}
+iframe {
+	border: none !important;
+}
+.contact-form-area{
+    background-image: url("images/header-bg.png");
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    
+}
+.contact-form-container{
+    width: 100%;
+    min-width: 100vh;
+    display: flex;
+}
+.warp-contact{
+    width: 700px;
+    background: #DD5E89;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 80px 60px 90px 80px;
+    margin-left: 535px;
+}
+.contact-form{
+    width: 100%;
+
+}
+.contact-form-title{
+    display: block;
+    font-size: 40px;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 90px;
+}
+.contact-form-input{
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid #adadad ;
+    margin-bottom: 40px;
+}
+.input-text{
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    color: rgba(219,21,99,1);
+    line-height: 1.2;
+    background-color: #DD5E89;
+}
+
+.focus-input{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+.focus-input::before{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    transition: all 0.4s;
+    background: rgba(219,21,99,1);
+}
+.focus-input::after {
+    content: attr(data-placeholder);
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    font-size: 13px;
+    font-weight: 200;
+    color: white;
+    line-height: 1.2;
+    transition: all 0.4s;
+  }
+  input.input-text{
+      height: 45px;
+  }
+input.input-text + .focus-input::after{
+    top: 16px;
+    left: 0;
+}
+textarea .input-text{
+    min-height: 115px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+
+}
+textarea .input-text + .focus-input::after{
+    top: 16px;
+    left: 0;
+}
+.input-text:focus + .focus-input::after{
+    top: -13px;
+}
+.input-text:focus + .focus-input::before{
+    width: 100%;
+}
+.has-val .input-text + .focus-input::after{
+    top: -13px;
+}
+.has-val .input-text + .focus-input::before{
+    width: 100%;
+}
+
+.container-contact-form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 15px;
+}
+.contact-form-button{
+    display: block;
+    position: relative;
+    border-radius: 2px;
+    z-index: 1;
+    width: auto;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.contact-form-btn-bg {
+    width: 300%;
+    height: 100%;
+    background: rgba(219,21,99,1);
+    background:linear-gradient(-135deg, #d5007d, #e53935, #d5007d, #e53935);
+    transition: all 0.4s;
+}
+.contact-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 244px;
+    height: 50px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.2;  
+}
+.contact-button:hover{
+    background:rgba(219,21,99,1);
+    transition: all 1.1s;
+}
+/* -------------------------------Contact-Area-Sections-CSS-ENDS------------------------------- */
+
+/* -------------------------------Footer-Area-Sections-CSS-START------------------------------- */
+
 footer{
     padding-top: 50px;
     padding-bottom: 20px;
     text-align: center;
+    color: rgba(219,21,99,1);
 }
 
-/* -------------------------------Clients-Area-Sections-CSS-ENDS------------------------------- */
+/* -------------------------------Footer-Area-Sections-CSS-ENDS------------------------------- */
 

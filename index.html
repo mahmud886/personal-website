@@ -3,31 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Coder Snigdho's Personal Website</title>
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- -------------------------------Header-Area-Sections-HTML-START------------------------------- -->
+    
     <header>
         <div class="container">
             <h3 class="logo">Coder Snigdho</h3>
             <div class="main-nav">
                  <ul class="nav">
-                     <li><a href="">Home</a></li>
-                     <li><a href="">About</a></li>
+                     <li><a href="#home">Home</a></li>
+                     <li><a href="#about">About</a></li>
                      <li><a href="">Skills</a></li>
-                     <li><a href="">Experiences</a></li>
-                     <li><a href="">Portfolio</a></li>
+                     <li><a href="#experience">Experiences</a></li>
+                     <li><a href="#portfolio">Portfolio</a></li>
                      <li><a href="">Services</a></li>
-                     <li><a href="">Pricing</a></li>
-                    <li><a href="">Contact</a></li>
+                     <li><a href="#clients">Clients</a></li>
+                    <li><a href="#contact">Contact</a></li>
                  </ul>
              </div>
         </div>
     </header>
 
-    <section class="header-area">
+    <section id="home" class="header-area">
         <div class="hero-section">
             <h4>Hello I'm</h4>
             <h1><span class="color-highlight">Coder Snigdho</span></h1>
@@ -44,7 +45,7 @@
 
 <!-- -------------------------------Biography-Area-Sections-HTML-START------------------------------- -->
 
-    <section class="biography-area">
+    <section id="about" class="biography-area">
         <div class="biography-single-section">
             <img src="images/hero1.png" alt="">
 
@@ -61,7 +62,7 @@
 
 <!-- -------------------------------LatestWork-Area-Sections-HTML-START------------------------------- -->
 
-    <section class="latestWork-area">
+    <section id="portfolio" class="latestWork-area">
         <h1 class="latest-content">My Latest Works</h1>
         <div class="div-section">
             <div class="latestWork-single-section">
@@ -81,7 +82,8 @@
 
 
 <!-- -------------------------------Clients-Area-Sections-HTML-START------------------------------- -->
-    <section class="clients-area">
+   
+<section id="clients" class="clients-area">
         <div>
             <h1 class="clients-asks">What Clients are say?</h1>
         </div>
@@ -99,12 +101,78 @@
         </div>
         
     </section>
+
+
+<!-- -------------------------------Clients-Area-Sections-HTML-END------------------------------- -->
+
+
+
+<!-- -------------------------------Experience-Area-Sections-HTML-START------------------------------- -->
+
+<section id="experience" class="experience-area">
+    <h1>Experiences</h1>
+    <div class="main-experience-div">
+        <div id="full-stack" class="half-width single-experience">
+            <h2>FULL STACK WEB DEVELOPER</h2>
+            <h3 class="orange-highlight">2021 - Present | Pro Level Developer</h3>
+            <p>The only way to get good at front end is practicing. The reason: cause it all depends on the outcome of code you have written. Practice makes your prediction better and shows you the better way of doing the same thing.</p>
+        </div>
+        <div id="baby-web" class="half-width single-experience">
+            <h2>BABY WEB DEVELOPER</h2>
+            <h3 class="orange-highlight">2020-2021 | Programming Hero Learner</h3>
+            <p>According to the general rules of programmer portfolio website design, the dynamic effects might get people easily distracted. But you will find that the website is well-designed with details, including the beautifully displayed the carousel</p>
+        </div>
+    </div>
+
+</section>
+
+<!-- -------------------------------Experience-Area-Sections-HTML-ENDS------------------------------- -->
+
+
+
+<!-- -------------------------------Contact-Area-Sections-HTML-START------------------------------- -->
+   
+
+<section id="contact" class="contact-form-area">
+        <div class="contact-form-container">
+            <div class="warp-contact">
+                <form class="contact-form validate-form" action="">
+                    <span class="contact-form-title">Contact Us</span>
+                    <div class="contact-form-input validate-input" data-validate="Name is reqired">
+                        <input class="input-text" type="text" name="name">
+                        <span class="focus-input" data-placeholder="NAME"></span>
+                    </div>
+                    <div class="contact-form-input validate-input" data-validate="valid email is required: coder@snigdho.xyz">
+                        <input class="input-text" type="text" name="email">
+                        <span class="focus-input" data-placeholder="EMAIL"></span>
+                    </div>
+                    <div class="contact-form-input validate-input" data-validate="Message is required">
+                        <textarea class="input-text" type="text" name="message"></textarea>
+                        <span class="focus-input" data-placeholder="MESSAGES"></span>
+                    </div>
+                    <div class="container-contact-form">
+                        <div class="contact-form-button">
+                            <div class="contact-form-btn-bg">
+                                <button class="contact-button">Send Your Message</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+<!-- -------------------------------Contact-Area-Sections-HTML-ENDS------------------------------- -->
+
+<!-- -------------------------------Footer-Area-Sections-HTML-START------------------------------- -->
     <section>
         <footer>
             <p>Programming Hero initiative &#169 Coder Snigdho 2020 || All Rights Reserved</p>
         </footer>
     </section>
+ <!-- -------------------------------Footer-Area-Sections-HTML-ENDS------------------------------- -->
 
-<!-- -------------------------------Clients-Area-Sections-HTML-END------------------------------- -->
 </body>
 </html>
